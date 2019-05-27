@@ -17,4 +17,9 @@ export default {
     }) => {
         commit('setUserInfo', userInfo);
     }
+
+
+    // setUserInfo: (context,userInfo) => {
+    //     context.commit('setUserInfo', userInfo);
+    // }
 }
