@@ -11,15 +11,13 @@ export default {
     hideNav: ({ commit }) => {
         commit('hideNav')
     },
-    setUserInfo: ({
-        commit,
-        userInfo,
-    }) => {
-        commit('setUserInfo', userInfo);
-    }
-
-
-    // setUserInfo: (context,userInfo) => {
-    //     context.commit('setUserInfo', userInfo);
+    // setUserInfo: ({
+    //     commit,
+    //     userInfo,
+    // }) => {
+    //     commit('setUserInfo', userInfo);
     // }
+    setUserInfo: (context,userInfo) => {
+        context.commit('setUserInfo', userInfo);
+    }
 }

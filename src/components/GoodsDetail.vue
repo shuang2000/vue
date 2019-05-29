@@ -100,6 +100,7 @@
                 }).then((res)=>{
                     _this.goodsImages = res.data[0];
                     _this.goodsData = res.data[1];
+                    console.log(_this.goodsData)
 
                 },(err)=>{
                     console.log(err);
